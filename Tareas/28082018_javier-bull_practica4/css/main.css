@@ -1,0 +1,246 @@
+/* reset css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* fin del reset */
+
+p{
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+
+.container{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.parallax {
+  background: #fff fixed no-repeat 50% 50%;
+  background-size: cover;
+}
+
+
+.header {
+  background-image: url(../img/background.jpg);
+  height: 100vh;
+}
+
+
+.header__top {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.menu {
+  display: flex;
+}
+
+
+.menu__item {
+  list-style: none;
+  margin-left: 30px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.menu__link{
+  color: white;
+  text-decoration: none;
+}
+
+.header__bottom {
+  /* background-color: tomato; */
+  color: white;
+  height: 400px;
+  width: 700px;
+  margin-top: 100px;
+}
+
+.header__bottom p{
+  margin: 0;
+  padding: 0;
+}
+
+
+.header__bottom a{
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #000000;
+  padding: 20px 45px;
+  margin-top: 60px;
+
+}
+
+
+.italic {
+  font-style: italic;
+}
+
+
+.letterSpacing {
+  letter-spacing: 3px;
+}
+
+.fontSize30 {
+  font-size: 30px;
+}
+
+
+.fontSize40 {
+  font-size: 40px;
+}
+
+.fontSize80 {
+  font-size: 80px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bgRed {
+  background-color: tomato;
+}
+
+.bgYellow {
+  background-color: gold;
+}
+
+.bgGreen {
+  background-color: green;
+}
+
+.bgBlue {
+  background-color: blue;
+}
+
+
+/* seccon welcome */
+.welcome {
+  padding-top: 100px;
+  height: 100vh;
+}
+
+.welcome h2{
+  font-size: 50px;
+  color: #393e46;
+}
+
+.line {
+width: 70px;
+height: 40px;
+border-top: solid 2px #45eba5;
+margin:  30px auto 50px auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.width60 {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.marginBottom {
+  margin-bottom: 80px;
+}
+
+.services-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-list__item {
+  display: flex;
+}
+
+.services-list__item h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.service-icon {
+  background-image: linear-gradient(to bottom left, green, yellow);
+  width: 70px;
+  height: 70px;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-solution {
+  padding-left: 20px;
+  padding-top: 20px;
+  width: 280px;
+}
+
+.service-solution h2{
+  padding-bottom: 15px;
+}
+
+
+
+.textColorGray {
+  color: #7f7f7f;
+}
+
+.service-solution ul{
+  padding-top: 15px;
+  line-height: 30px;
+  list-style: initial;
+  }
+
+
+/* fin seccion welcome */
