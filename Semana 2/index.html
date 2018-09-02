@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Semana 2 - Flexbox</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Roboto" rel="stylesheet">
+</head>
+<body>
+
+	<h1>FlexBox</h1>
+
+	<section>
+		<div class="container-fixed">
+			<h2>Block</h2>
+			<div>
+				<div class="block box box-red box70">item1</div>
+				<div class="block box box-orange box90">item2</div>
+				<div class="block box box-blue box110">item3</div>
+				<div class="block box box-purple box130">item4</div>
+				<div class="block box box-green box150">item5</div>
+			</div>
+		</div>
+
+		<div class="container-fixed">
+			<h2>inline</h2>
+			<div>
+				<div class="inline box box-red box70">item1</div>
+				<div class="inline box box-orange box90">item2</div>
+				<div class="inline box box-blue box110">item3</div>
+				<div class="inline box box-purple box130">item4</div>
+				<div class="inline box box-green box150">item5</div>
+			</div>
+		</div>
+
+		<div class="container-fixed">
+			<h2>Flex</h2>
+			<div class="flex">
+				<div class="box box-red box70">item1</div>
+				<div class="box box-orange box90">item2</div>
+				<div class="box box-blue box110">item3</div>
+				<div class="box box-purple box130">item4</div>
+				<div class="box box-green box150">item5</div>
+			</div>
+		</div>
+
+		<div class="container-fixed">
+			<h2>Flex direction COLUMNAS</h2>
+			<div class="flex flex-direction-column">
+				<div class="box box-red box70">item1</div>
+				<div class="box box-orange box90">item2</div>
+				<div class="box box-blue box110">item3</div>
+				<div class="box box-purple box130">item4</div>
+				<div class="box box-green box150">item5</div>
+			</div>
+		</div>
+
+		<div class="container-fixed">
+			<h2>Flex direction ROW</h2>
+			<div class="flex flex-direction-row">
+				<div class="box box-red box70">item1</div>
+				<div class="box box-orange box90">item2</div>
+				<div class="box box-blue box110">item3</div>
+				<div class="box box-purple box130">item4</div>
+				<div class="box box-green box150">item5</div>
+			</div>
+		</div>
+
+		<div class="container-fixed">
+			<h2>Justify Content</h2>
+			<p>Solo afecta al eje principal "main-axis"</p>
+			<div class="flex flex-direction-row justify-content">
+				<div class="box box-red box70">item1</div>
+				<div class="box box-orange box90">item2</div>
+				<div class="box box-blue box110">item3</div>
+				<div class="box box-purple box130">item4</div>
+				<div class="box box-green box150">item5</div>
+			</div>
+		</div>
+
+		<div class="container-fixed alto500">
+			<h2>Align Items</h2>
+			<p>Solo afecta al eje transversal "cross-axis"</p>
+			<div class="flex flex-direction-row justify-content align-items alto-strech">
+				<div class="box box-red box70">item1</div>
+				<div class="box box-orange box90">item2</div>
+				<div class="box box-blue box110">item3</div>
+				<div class="box box-purple box130">item4</div>
+				<div class="box box-green box150">item5</div>
+			</div>
+		</div>
+
+		<div class="container-fixed alto500">
+			<h2>Align Self</h2>
+			<p>Afecta a los hijos</p>
+			<div class="flex flex-direction-column justify-content align-items">
+				<div id="box70" class="box box-red box70">item1</div>
+				<div id="box90" class="box box-orange box90">item2</div>
+				<div id="box110" class="box box-blue box110">item3</div>
+				<div id="box130" class="box box-purple box130">item4</div>
+				<div id="box150" class="box box-green box150">item5</div>
+			</div>
+		</div>
+
+	</section>
+</body>
+</html>
+
+
+
+
+
