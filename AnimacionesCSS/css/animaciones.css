@@ -1,0 +1,51 @@
+body {
+  background-color: teal;
+}
+
+.one {
+  background: url(../images/axis.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+
+#axis {
+    border: 5px #f7f7f7 solid;
+    font: 10pt normal Arial, sans-serif;
+    height: 900px;
+    margin: 30px auto 80px auto;
+    position: relative;
+    text-align: center;
+    width: 900px;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+div {
+    display: block;
+}
+
+.van {
+  position: absolute;
+   transition: all 2s ease-in-out;
+   -webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
+   -moz-transition: all 2s ease-in-out; /** Firefox **/
+   -o-transition: all infinite ease-in-out; /** Opera **/
+}
+
+.position-van {
+  top: 45%;
+  left: 35%;
+}
+
+.van:hover {
+  /*to right */
+  /* transform: translate(350px,0); */
+  /* to left */
+  /* transform: translateX(-350px); */
+  /* to top */
+  /* transform: translateY(-350px); */
+  /* to bottom */
+  /* transform: translateY(350px); */
+  /* axis z */
+  transform: rotateZ(720deg);
+}

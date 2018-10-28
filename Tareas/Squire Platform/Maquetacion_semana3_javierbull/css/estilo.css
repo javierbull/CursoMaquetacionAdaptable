@@ -1,0 +1,731 @@
+
+body{
+	/* background-color: #ededed; */
+	color: #555151;
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+/*Header*/
+header{
+	/* background: blue; */
+	padding-bottom: 20px;
+}
+header .header-up{
+	background-color: #444444;
+	border-top: 3px solid orange;
+	padding: 20px 0;
+	margin-bottom: 20px;
+	font-size: 12px;
+
+}
+header .header-up h3{
+	color: #f2f2f2;
+	padding:0;
+	margin: 0;
+	font-weight: normal;
+}
+
+header section{
+	display: flex;
+	align-items: center;
+
+}
+header section .box-header{
+}
+
+
+header section .box-header.box-logo{
+	flex-grow: 3;
+
+}
+
+header section .box-header.box-phone{
+	flex-grow: 1;
+}
+header section .box-header.box-email{
+	flex-grow: 1;
+}
+
+.box-contact{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.box-contact i{
+	color: #99cc00;
+	margin-right: 30px;
+	font-size: 40px;
+}
+.box-contact p{
+	font-size: 20px;
+}
+.box-contact p span{
+	display: block;
+	font-size: 16px;
+	font-weight: lighter;
+	color: grey;
+}
+
+
+/*nav*/
+.navbar {
+	background: white;
+	border-top: 1px solid #b7b7b7;
+	border-bottom: 1px solid #b7b7b7;
+	overflow: hidden;
+	z-index: 1000;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar ul {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding-left: 0;
+}
+
+nav ul li{
+	list-style: none;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 20px 0;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #2e383f;
+	transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+	color: #99cc00;
+}
+
+/* estilos flex */
+.displayFlex {
+	display: flex;
+}
+
+.alignItemsCenter {
+	align-items: center;
+}
+
+.alignItemsStart {
+	align-items: flex-start;
+}
+
+.alignItemsEnd {
+	align-items: flex-end;
+}
+
+.justifyBetween {
+	justify-content: space-between;
+}
+
+.justifyCenter {
+	justify-content: center;
+}
+
+.justifyEnd {
+	justify-content: flex-end;
+}
+
+.justifyStart {
+	justify-content: flex-start;
+}
+
+.displayColumn {
+	flex-direction: column;
+}
+
+/* fin estilos flex */
+
+/* banner section */
+section.banner {
+	background-image: url(../img/content-bg01.jpg);
+	height: 100vh;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.parallax {
+  background: #fff fixed no-repeat 50% 50%;
+  background-size: cover;
+}
+
+
+
+.bannerLeft {
+	/* background: tomato; */
+	width: 900px;
+}
+
+
+.bannerLeft p {
+	font-size: 55px;
+	margin: 0;
+	color: #fcfcfc;
+	font-weight: 200;
+}
+
+.bannerLeft p span {
+	font-weight: bold;
+	font-family: 'Roboto';
+}
+
+.Montserrat {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.cta_block {
+	background-color:rgba(23, 19, 156, 0.5);
+	width: 280px;
+	height: 280px;
+
+}
+
+.cta_block p {
+	color: #fcfcfc;
+	opacity: 1;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+
+
+.button {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	padding: 20px 10px;
+	width: 200px;
+	font-size: 15px;
+	text-align: center;
+	transition: all 0.4s ease-in-out;
+}
+
+.button:hover {
+	background-color: #ea0599;
+	color: white;
+}
+
+/* fib banner */
+
+.marginTop10 {
+	margin-top: 10px;
+}
+
+.marginTop20 {
+	margin-top: 20px;
+}
+
+.marginTop30 {
+	margin-top: 30px;
+}
+
+.marginTop40 {
+	margin-top: 40px;
+}
+
+.marginTop50 {
+	margin-top: 50px;
+}
+
+.marginTop60 {
+	margin-top: 60px;
+}
+
+
+/* Bg Colors */
+
+.bgGreen {
+	background-color: #99cc00;
+}
+
+.bgOrange {
+	background-color: #f5841a;
+}
+
+.bgGray {
+	background-color: #f7f7f7;
+}
+
+/* Fin Bg Colors */
+
+/* bloque Land for Sale */
+
+.block_lands {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+
+.title {
+	font-weight: 300;
+	color: #272533;
+  font-size: 42px;
+  line-height: 0.9;
+  letter-spacing: 0px;
+	font-family: 'Montserrat';
+ }
+
+ .textCenter {
+	 text-align: center;
+ }
+
+.card {
+	width: 280px;
+	height: 340px;
+	border: 1px solid #dedede;
+	text-align: center;
+	margin-top: 20px;
+	transition: all 0.4s ease-in-out;
+}
+
+.card:hover {
+	background-color: #6e5773;
+	color: white;
+}
+
+.card img {
+	border-radius: 50%;
+}
+
+.linkStyle {
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: #a1c45a;
+	transition: all 0.5s ease-in-out;
+}
+
+.linkStyle i {
+
+}
+
+.linkStyle:hover {
+	color: #f5841a;
+}
+
+/* fin bloque Land for Sale */
+
+/* about block */
+
+.about_block {
+	background-image: url(../img/content-bg02.jpg);
+	height: 150vh;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.about_block_text {
+	background-color: white;
+	width: 500px;
+	height: 600px;
+	padding: 50px;
+	margin-right: 50px;
+}
+
+.about_block_text h4 {
+	  font-weight: 300;
+    font-style: normal;
+    color: #272533;
+    font-size: 42px;
+    line-height: 0.9;
+    letter-spacing: 0px;
+		margin-top: 50px;
+		margin-bottom: 20px;
+}
+
+.about_block_text p {
+font-weight: 300;
+color: #666666;
+font-size: 16px;
+line-height: 1.5;
+margin-bottom: 50PX;
+}
+
+.about_block_text a {
+	transition: all 0.4s ease-in-out;
+}
+
+.about_block_text a:hover {
+	background-color: #ea0599;
+	color: white;
+}
+
+
+
+/* fin about block */
+
+/* bloque lands for sale 2 */
+
+.block_lands2 {
+	padding-bottom: 100px;
+}
+
+.block_lands2 h4 {
+	margin-top: 120px;
+}
+
+.block_lands2 p {
+	font-weight: 300;
+  font-style: normal;
+  color: #666666;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0px;
+	margin-top: -30px;
+}
+
+
+
+.card2 {
+	width: 380px;
+	height: 450px;
+	border: 1px solid #dedede;
+	margin-top: 20px;
+	transition: all 0.4s ease-in-out;
+}
+
+
+.card2 img {
+	width: auto;
+}
+
+.card2_text {
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.card2 p {
+	display: inline-block;
+	line-height: 1;
+	color: #272533;
+	font-size: 20px;
+}
+
+
+.card2 a {
+	margin-left: 30px;
+}
+
+.textBold {
+	font-weight: bold;
+}
+
+/* fin bloque lands for sale 2 */
+
+/* bloque experience */
+
+.experience_block {
+	height: 400px;
+	background-color: #333;
+	color: white;
+}
+
+.experience_card {
+	width: 250px;
+}
+
+.experience_card p span{
+	font-size: 60px;
+}
+
+.line {
+	height: 3px;
+	width: 45px;
+	margin: auto;
+}
+
+
+
+/* fin bloque experience */
+
+/* bloque advertise */
+
+.advertise_block {
+	background-image: url(../img/content-bg03.jpg);
+	height: 150vh;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.advertise_block_text {
+	background-color: white;
+	width: 500px;
+	height: 500px;
+	padding: 50px;
+	margin-right: 50px;
+}
+
+.advertise_block_text h4 {
+	  font-weight: 300;
+    font-style: normal;
+    color: #272533;
+    font-size: 42px;
+    line-height: 0.9;
+    letter-spacing: 0px;
+		margin-top: 50px;
+		margin-bottom: 20px;
+}
+
+.advertise_block_text p {
+font-weight: 300;
+color: #666666;
+font-size: 16px;
+line-height: 1.5;
+margin-bottom: 50PX;
+}
+
+.advertise_block_text a {
+	transition: all 0.4s ease-in-out;
+}
+
+.advertise_block_text a:hover {
+	background-color: #ea0599;
+	color: white;
+}
+
+/* fin bloque advertise */
+
+
+/* location land block */
+
+.locationLandBlock {
+	padding-top: 100px;
+}
+
+.locationLandBlock_text {
+	width: 500px;
+
+}
+
+.locationLandBlock_text p {
+	font-weight: 100;
+	color: #666666;
+  font-size: 16px;
+	line-height: 1.5;
+}
+
+.locationLandBlock_countries {
+	width: 580px;
+	height: 600px;
+
+}
+
+.country_menu {
+
+}
+
+.country_menu li {
+	list-style:none;
+
+}
+
+.country_menu a {
+	display: inline-block;
+	text-decoration: none;
+	color: #444444;
+	line-height: 1.6;
+	transition: all 0.4s ease-in-out;
+}
+
+.country_menu a:hover {
+	color: #f5841a;
+	text-decoration: underline;
+}
+
+/* fin location land */
+
+/* request block */
+.request_block {
+	background-image: url(../img/content-bg04.jpg);
+	height: 500px;
+}
+
+
+.request_block_text p {
+	font-size: 38px;
+	margin: 0;
+	color: #fcfcfc;
+	font-weight: 200;
+}
+
+
+/* ************************* */
+
+.italicText {
+	font-style: italic;
+}
+
+.request_block_form {
+	width: 400px;
+	height: 350px;
+}
+
+.request_block_form p {
+	font-size: 35px;
+	color: white;
+}
+
+.form input {
+	display: block;
+	width: 350px;
+	padding: 16px 10px;
+	margin-top: 3px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3px;
+	box-sizing: border-box;
+	border-style: none;
+	border-radius: 5px;
+}
+/* fin request block */
+
+/* land_news_block */
+
+.lates_land_news {
+	padding-top: 80px;
+	padding-bottom: 100px;
+
+}
+
+.card_news {
+	width: 500px;
+	height: 580px;
+	position: relative;
+	padding-top: 20px;
+
+}
+
+.title_news {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	margin-top: 30px;
+
+}
+
+.card_news p {
+font-weight: 300;
+color: #666666;
+font-size: 18px;
+line-height: 1.5;
+letter-spacing: 0px;
+padding-bottom: 10px;
+}
+
+.card_news_button {
+	position: absolute;
+	bottom: 0;
+}
+
+/* fin lates_land_news */
+
+/* fotter */
+
+
+.footer_top {
+	height: 500px;
+	background-color: #444444;
+}
+
+.footer_logo {
+	width: 350px;
+	height: 300px;
+	font-size: 16px;
+	color: white;
+	line-height: 1.5;
+}
+
+.quick_links {
+	color: white;
+}
+
+.linkFooter {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	margin-bottom: 20px;
+	transition: all 0.4s ease-in-out;
+	text-align: left;
+}
+
+.linkFooter:hover {
+	color: #f5841a;
+}
+
+.linkFooter i {
+	color: #99cc00;
+}
+
+.contact_us {
+
+}
+
+.contact_us p {
+	color: #99cc00;
+	font-size: 15px;
+	margin-bottom: -1px;
+}
+
+.contact_us h4 {
+	color: white;
+}
+
+.social_links h4 {
+	color: white;
+}
+
+.social_icons {
+	width: 280px;
+}
+
+.social_icons a {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	text-decoration: none;
+	transition: all 0.5s ease-in-out;
+}
+
+.social_icons a:hover {
+	background-color: #99cc00;
+}
+
+.social_icons a i {
+	color: white;
+	font-size: 14px;
+
+}
+
+.footer_bottom {
+
+	background-color: #444444;
+	height: 100px;
+	color: white;
+
+}
+
+.footer_bottom p {
+	display: inline-block;
+	margin-top: -30px;
+}
+/* fin footer */

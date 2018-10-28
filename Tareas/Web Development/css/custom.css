@@ -1,0 +1,347 @@
+
+body{
+	/* background-color: orange; */
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+
+}
+.row>div{
+	/* outline: 1px solid gray; */
+}
+
+/*Carousel*/
+.box-tittle {
+	/* background-color: gold; */
+	height: 80vh;
+	padding-bottom: 0;
+}
+
+.box-tittle i {
+	font-size: 150px;
+	color: #BBB4B1;
+}
+
+.box-tittle h5{
+		font-size: 96px;
+		font-weight: bold;
+}
+
+.box-tittle p {
+	font-size: 24px;
+}
+
+.button {
+	display: inline-block;
+	background-color: #0FC9BE;
+	font-size: 15px;
+	line-height: 20px;
+	letter-spacing: normal;
+	color: white;
+	font-weight: 900;
+	width: 200px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	transition: all 0.5s ease-in-out;
+}
+
+.button:hover {
+	background-color: #333333;
+	color: white;
+	text-decoration: none;
+}
+
+
+
+/* fin carousel */
+
+/* bloque menu */
+.menu {
+	background-color: #0FCABF;
+	padding: 10px;
+	z-index: 1000;
+	text-align: center;
+}
+
+.menu h1 {
+	/* background-color: gold; */
+	font-size: 16px;
+	line-height: 16px;
+	padding: 0;
+	margin: 0;
+	color:white;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.menu  nav {
+	/* background-color: tomato; */
+	font-size: 16px;
+	font-weight: 900;
+	padding-left: 150px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+
+/* fin bloque menu */
+
+/* bloque why */
+
+.banner_why {
+	background-image: url(../img/parallax_01.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+/* fin bloque why */
+
+/* bloque about */
+
+
+.about-block {
+	background-color: white;
+	margin-bottom: 100px;
+}
+
+.text-color-black {
+	color: #333333;
+}
+
+.text-color-gray {
+	color: #a7a7a7;
+}
+
+.text-color-teal {
+	color: #0fcabf;
+}
+
+.text-color-white {
+	color:white;
+}
+
+.tittle {
+	font-size: 36px;
+	font-weight: 800;
+	text-align: center;
+	margin: 60px 0 20px 0;
+}
+
+.sub-tittle {
+	font-size: 24px;
+	line-height: 24px;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.text-bold {
+	font-weight: 800;
+}
+
+.bg-color-sky {
+	background-color: #58CDE7;
+}
+
+.bg-color-yellow {
+	background-color: #F4CE56;
+}
+
+.bg-color-orange {
+	background-color: #FB8B32;
+}
+
+.bg-color-gray {
+	background-color: #F7F7F7;
+}
+
+.bg-color-teal {
+	background-color: #0FCABF;
+}
+
+.bg-color-dark-teal {
+	background-color: #167c76;
+}
+
+.barra {
+	background-image: url(../img/progress-bg.jpg);
+	height: 45px;
+	margin-bottom: 10px;
+
+}
+
+.barra span {
+	padding-left: 20px;
+}
+
+
+
+/* bloque histories */
+
+.histories {
+	background-color: #333333;
+	padding-top: 80px;
+}
+
+.histories img {
+	border-radius: 50%;
+	padding: 0 10px;
+}
+
+.histories h3 {
+	font-size: 16px;
+	font-weight: bold;
+	color: #59CEE8;
+	text-align: center;
+}
+
+.histories p {
+	border-left: solid 2px tomato;
+	padding: 0 0 0 20px;
+}
+
+
+.padding-top-50 {
+	padding-top: 50px;
+}
+
+.padding-bottom-50{
+	padding-bottom: 50px;
+}
+
+.padding-bottom-100{
+	padding-bottom: 100px;
+}
+
+
+/* fin bloque histories */
+
+/* bloque services */
+
+.services_block {
+	/* background-color: white; */
+	text-align: center;
+	line-height: 24px;
+	padding: 80px 0 100px 0;
+}
+
+.services_block i {
+	font-size: 44px;
+	color:#474a56;
+}
+
+.services_block i:hover {
+	color: teal;
+}
+
+.services_block h3 {
+	font-size: 16px;
+	font-weight: bold;
+	padding: 30px 0 20px 0;
+}
+
+/* fin bloque services */
+
+/* bloque news */
+
+.news_block {
+	padding: 20px 0 100px 0;
+}
+
+
+
+.img_card {
+	/* background-color: tomato; */
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.img_card img {
+	width: 350px;
+	transition: all 0.5s ease-in-out;
+
+}
+
+.img-border-hidden {
+  overflow: hidden;
+  width: 350px;
+}
+
+.img_card img:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.img_card h4 {
+	font-size: 16px;
+	font-weight: bold;
+	padding: 20px 0 10px 0;
+}
+
+
+
+/* fin bloque news */
+
+/* bloque form */
+.contact_block {
+	padding-bottom: 100px;
+}
+
+.form-group {
+	/* background-color: gold; */
+	width: 40vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.form-group input {
+	border-radius: 0px;
+	margin-bottom: 2px;
+}
+
+.form-group  input:hover, textarea:hover {
+	background-color: #B7EFEC;
+}
+
+.form-group textarea {
+	border-radius: 0px;
+	margin-bottom: 5px;
+}
+
+.form-group button {
+	width: 40vw;
+	font-size: 16px;
+	border-radius: 0px;
+	color: white;
+	padding: 1rem 0;
+}
+
+.form-group button:hover {
+	background-color: #333333;
+}
+
+
+/* fin bloque form */
+
+/* footer */
+
+footer {
+	padding: 30px 0;
+}
+
+footer h4 {
+	font-size: 40px;
+	letter-spacing: 4px;
+}
+
+/* fin footer */

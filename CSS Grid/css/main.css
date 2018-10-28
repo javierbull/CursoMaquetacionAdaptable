@@ -1,0 +1,101 @@
+body {
+  /* background-color: gold; */
+  text-align: center;
+}
+
+.item{
+  background-color: teal;
+  border: solid orange 1px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+Con esto determinamos el tamaño
+y la cantidad de columnas y filas
+*/
+/*grid-template-columns:100px 100px 100px 100px 100px;
+grid-template-rows:100px 100px 100px 100px 100px;*/
+
+/*Funciona con porcentajes*/
+/*grid-template-columns:20% 55% 25%;*/
+
+/*Fr es la distribución del espacio restante*/
+/*grid-template-columns:20% 1fr 2fr 4fr*/
+
+/*Para repetir asignando valores*/
+/*grid-template-columns:repeat(5,100px);
+grid-template-rows:repeat(5,100px);*/
+
+/*Auto fit (auto-fit, minmax(ancho, 1fr)) */
+
+/*
+  Esto sirve para determinar el tamaño
+  de las columnas y filas nuevas que se crean
+
+grid-auto-columns: 100px;
+grid-auto-rows: 100px ;
+
+*/
+
+/*
+  Esto sirve para determinar el orden
+  en que se crean los items
+*/
+/*grid-auto-flow:row;
+grid-auto-flow:column;
+}
+*/
+/*
+	Los span son para ocupar espacios ya
+	sea en columnas o/y filas
+*/
+/*.item:nth-child(5){
+	background-color: black;
+	color: white;
+
+	grid-column:span 2;
+	grid-row:span 2;
+}
+
+.item:nth-child(17){
+	background-color: black;
+	color: white;
+
+	grid-column:span 5;
+	grid-row:span 1;
+}*/
+/*
+  Podemos controlar la cantidad
+  de columnas o filas
+*/
+/*grid-column:span 3;
+grid-row: span 2;*/
+
+/*
+  Modificamos la posición y el
+  tamaño en base a las lineas
+*/
+/*grid-column: 3 / 5;
+grid-row: 2 / 4;*/
+
+/*
+  Modificamos la posición en base a
+  la linea y a las columnas o/y filas
+*/
+
+.ejemplo1 {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(5, 100px) ;
+  grid-gap: 10px;
+  grid-auto-flow:column;
+}
+
+.ejemplo2 {
+  display:grid;
+  grid-auto-columns: repeat(5, auto);
+
+}

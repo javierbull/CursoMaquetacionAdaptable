@@ -1,0 +1,88 @@
+@media (min-width: 320px) and (max-width: 600px ) {
+	body{
+		/* background-color: red; */
+
+	}
+	.menu h1 {
+		text-align: center;
+	}
+
+	.histories p {
+		border-left: none;
+		padding: 0 20px 0 20px;
+	}
+
+	.img_card {
+		/* background-color: tomato; */
+		width: 330px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.img_card img {
+		width: 330px;
+		transition: all 0.5s ease-in-out;
+	}
+
+	.img-border-hidden {
+		overflow: hidden;
+		width: 330px;
+	}
+
+	.form-group {
+		width: 90vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.form-group button {
+		width: 90vw;
+		height: 60px;
+		font-size: 16px;
+		border-radius: 0px;
+		color: white;
+	}
+}
+@media (min-width: 768px) and (max-width: 1024px ) {
+	body{
+		/* background-color: blue; */
+	}
+
+	.menu h1 {
+		text-align: center;
+	}
+
+	.img_card {
+		/* background-color: tomato; */
+		width: 200px;
+
+	}
+
+	.img_card img {
+		width: 200px;
+		transition: all 0.5s ease-in-out;
+
+	}
+
+	.img-border-hidden {
+	  overflow: hidden;
+	  width: 200px;
+	}
+
+
+	.form-group {
+		width: 60vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.form-group button {
+		width: 60vw;
+		height: 60px;
+		font-size: 16px;
+		border-radius: 0px;
+		color: white;
+	}
+
+
+}
