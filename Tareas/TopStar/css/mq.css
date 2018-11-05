@@ -1,0 +1,270 @@
+@media (min-width: 320px) and (max-width: 760px ) {
+	/* CELULARES */
+	body{
+		/* background-color: gold; */
+	}
+
+	header {
+		flex-direction: column-reverse;
+		margin: 0 0.5rem;
+		padding-top: 0;
+	}
+
+	.logo img{
+		transform: scale(0.5);
+		margin-top: -30px;
+	}
+
+	.topnav {
+		width: 100%;
+	}
+
+	/* models */
+
+	.models {
+		display: block;
+
+	}
+
+	.model-item {
+		margin-bottom: 35px;
+	}
+
+	.models .model-item:nth-child(3) {
+	  height: 300px;
+	}
+
+	.models .model-item:nth-child(3) p{
+	  font-size: 24px;
+		line-height: normal;
+	}
+
+	.models .model-item:nth-child(3) h2{
+	  font-size: 32px;
+		padding-bottom: 20px;
+
+	}
+
+
+	.model-item h3 {
+	  font-size: 40px;
+	  left: 20px;
+	  bottom: 20px;
+	  position: absolute;
+	  color: white;
+	  font-weight: 300;
+	}
+
+	.container {
+	  margin: 0 1rem;
+	  /* background-color: tomato; */
+	}
+	/* fin models */
+
+	/* CONTENIDO PRINCIPAL */
+
+	/* FIN CONTENIDO PRINCIPAL */
+
+	/* CONTENIDO SECUNDARIO*/
+	.contenido-secundario {
+		flex-direction: column;
+		height: 1150px;
+		position: relative;
+		margin-top: 70px;
+	}
+
+	.card-cs {
+
+	  width: 100%;
+	  height: 550px;
+	  padding: 50px 36px 50px 44px;
+	}
+
+	.card-cs h2 {
+	  color: #fff;
+	  font-size: 25px;
+	  line-height: 45px;
+	  font-weight: 300;
+	  letter-spacing: -0.5px;
+	  padding-bottom: 35px;
+	}
+
+	.card-cs h3 {
+	  font-size: 14px;
+	  line-height: 24px;
+	  font-weight: 300;
+	  padding-bottom: 25px;
+	  color: #fff;
+	}
+
+	.card-cs p {
+	  border-top: solid 1px white;
+	  padding-top: 35px;
+	  color: #fff;
+	  font-size: 16px;
+	  font-weight: bold;
+	  line-height: 1.5em;
+	  margin-bottom: 50px;
+	}
+
+	.contenido-secundario .card-cs:nth-child(1){
+		position: absolute;
+		top: 0;
+	}
+
+	.contenido-secundario .card-cs:nth-child(2){
+		position: absolute;
+		bottom: 0;
+	}
+	/*FIN CONTENIDO SECUNDARIO */
+
+	/* PERFECT EXPERIENCE */
+	.perfect-experience {
+		justify-content: center;
+		margin-top: 50px;
+	}
+	/* FIN PERFECT EXPERIENCE */
+
+	/* MODEL PROFILES */
+	.model-profiles {
+		display: block;
+	}
+
+	.model-profiles .model-item:nth-child(1) {
+		/* background-color: teal; */
+		flex-direction: row;
+		align-items: baseline;
+		justify-content: center;
+		margin-bottom: -30px;
+	}
+
+	.model-item h2 {
+		font-size: 36px;
+		padding-right: 10px;
+	}
+
+	.model-item a {
+		display: flex;
+		justify-content: center;
+		margin-bottom: -20px;
+	}
+	/* FIN MODEL PROFILES */
+
+	/* CASTINGS */
+	.castings {
+
+	}
+
+	.castings h3 {
+	  font-size: 28px;
+	  line-height: 73px;
+	  font-weight: 700;
+	  color: #fff;
+	}
+
+	.span {
+	  display: block;
+	  font-size: 22px;
+	  font-weight: 400;
+	  color: #fff;
+
+	}
+
+	/* FIN CASTINGS */
+
+	/* BLOQUE BENEFICIOS */
+
+	.beneficios {
+		margin-top: 100px;
+		height: 1400px;
+		padding-bottom: 200px;
+		}
+
+	.container-cards-beneficios {
+		display: block;
+	}
+
+	.card-beneficios {
+	  margin-bottom: 60px;
+	}
+
+
+
+	/* FIN BLOQUE BENEFICIOS */
+
+	/* BLOQUE NEWS*/
+	.news {
+		display: block;
+		margin-top: 100px;
+	}
+
+	.news-item {
+		margin-top: -20px;
+	}
+
+	.news-item h2 {
+    font-size: 32px;
+  }
+	.news-item h2 span{
+    font-size: 32px;
+  }
+
+	.news-item time {
+		display: inline-block;
+    margin-bottom: 20px;
+		/* background-color: teal; */
+  }
+
+	.news-item a {
+		display: inline-block;
+    margin-top: 20px;
+  }
+
+
+	/*FIN BLOQUE NEWS */
+
+	/* FOOTER */
+	footer {
+		display: block;
+	}
+
+	.footer-item {
+	  display: flex;
+	  justify-content: center;
+		padding: 10px 0;
+	}
+	/* FIN FOOTER */
+}
+
+
+@media (min-width: 768px) and (max-width: 1150px ) {
+	/* TABLETS */
+	body{
+		/* background-color: tomato; */
+	}
+
+	header {
+		flex-direction: column;
+
+	}
+
+	.logo {
+
+	}
+
+	.topnav {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+
+
+}
+
+@media (min-width: 1200px) and (max-width: 3000px ){
+	.topnav {
+		display: flex;
+
+	}
+}
